@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
-import data from "../script/src/config.json";
+import data from "../styles/config.json"
 
 export default function Home() {
   const [sender, setSender] = useState(null);
